@@ -1,0 +1,33 @@
+{
+  "name": "cypress_learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "html": {
+      "enabled": true,
+      "output": "cucumberReports/results.html"
+    },
+    "json": {
+      "enabled": true,
+      "output": "cucumberReports/results.json",
+      "formatter": "./cucumber-json-formatter.exe"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.1.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "multiple-cucumber-html-reporter": "^3.4.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.5",
+    "@cypress/browserify-preprocessor": "latest"
+  }
+}
