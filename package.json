@@ -8,15 +8,9 @@
     "cypress:open": "cypress open"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": false,
-    "html": {
-      "enabled": true,
-      "output": "cucumberReports/results.html"
-    },
     "json": {
       "enabled": true,
-      "output": "cucumberReports/results.json",
-      "formatter": "./cucumber-json-formatter.exe"
+      "output": "cypress/cucumberReports/results.json"
     }
   },
   "author": "",
