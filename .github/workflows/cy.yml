@@ -19,3 +19,9 @@ jobs:
         run: npm install
       - name: Cypress run
         uses: cypress-io/github-action@v6
+      - name: Test results into artifacts
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: test-results
+          path: cypress/cucumberReports/
