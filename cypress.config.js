@@ -1,10 +1,6 @@
 const { defineConfig } = require("cypress");
 const preprocessor = require("@badeball/cypress-cucumber-preprocessor");
 const browserify = require("@badeball/cypress-cucumber-preprocessor/browserify");
-import {
-  beforeRunHandler,
-  afterRunHandler,
-} from "@badeball/cypress-cucumber-preprocessor";
 
 on("before:run", async (details) => {
   await beforeRunHandler(config);
