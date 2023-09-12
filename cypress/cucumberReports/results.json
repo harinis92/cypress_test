@@ -1,0 +1,100 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "end-to-end-validation;add-and-verify-the-products-in-the-cart",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Add and verify the products in the cart",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I add four random items to my Cart",
+            "result": {
+              "duration": 2917000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "I view my cart",
+            "result": {
+              "duration": 1700000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I find total four items in my cart",
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 8,
+            "name": "I search for lowest price item",
+            "result": {
+              "duration": 64000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "I am able to remove the lowest price item from my cart",
+            "result": {
+              "duration": 827000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I am able to verify three items in my cart",
+            "result": {
+              "duration": 579000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "id": "end-to-end-validation",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "End to end validation",
+    "uri": "cypress\\e2e\\examples\\BDDFramework\\cart.feature"
+  }
+]
