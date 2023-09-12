@@ -8,6 +8,7 @@ Execution Instructions:
 4. Run test with "npx cypress open"
 5. Select the feature file "cart.feature" and run it in Chrome
 ![image](https://github.com/harinis92/cypress_test/assets/126422850/02b3746e-c692-4c37-a239-38a01c9c975b)
+6. To run in the console "npx cypress run"
 
 Execution Report:
 
