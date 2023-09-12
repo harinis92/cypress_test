@@ -14,4 +14,4 @@ Execution Report:
 Have integrated Cucumber HTML report generator.
 1. Run "node cucumber-html-report.js" from root folder for generating the test report.
 The report will be available inside CucumberReports folder.
-
+![image](https://github.com/harinis92/cypress_test/assets/126422850/a701a43b-9f33-4b1b-a7b7-73818f0d24f9)
